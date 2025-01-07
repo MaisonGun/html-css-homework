@@ -1,0 +1,61 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif; /* Устанавливаем шрифт */
+            margin: 0; /* Убираем внешние отступы */
+            padding: 0; /* Убираем внутренние отступы */
+        }
+
+    
+        header, main, footer {
+            display: flex; /* Блочный элемент занимает всю ширину */
+            flex-direction: column;
+            width: 100%; /* Занимает всю ширину родительского контейнера */
+            padding: 20px; /* Внутренние отступы для пространства внутри */
+            background-color: #d5d5d5; /* Задаём светлый фон */
+            margin-bottom: 10px; /* Нижний внешний отступ между блоками */
+        
+        }
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.history-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.history-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+footer {
+    margin-bottom: 12px;
+}
+footer p {
+    flex-direction: row;
+    gap: 10px;   
+    text-align: center;
+    
+}
+
+.history-container img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
+    </style>
